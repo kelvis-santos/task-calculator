@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timer.css">
+</head>
+
+<body>
+    <div class="task_name_block">
+        <input id="new-task-name" class="task_name_input" type="text" placeholder="Add task name..."><button class="task_add_new" onclick="startTaskObject()">+</button>
+    </div>
+    <!-- create a timer block with start stop buttons -->
+    <div id="task-list" class="task_block_content">
+        <div class="timer_block">
+            <div class="timer_menu">
+                <button class="start_button" onclick="startTimer()">Start</button>
+                <button class="stop_button" onclick="stopTimer()">Stop</button>
+                <button class="reset_button" onclick="resetTimer()">Reset</button>
+            </div>
+            <div class="timer_display">
+                <p id="stopwatch" class="timer_text">00:00:00</p>
+            </div>
+        </div>
+        <div class="timer_block">
+            <div class="timer_menu">
+                <button class="start_button" onclick="startTimer()">Start</button>
+                <button class="stop_button" onclick="stopTimer()">Stop</button>
+                <button class="reset_button" onclick="resetTimer()">Reset</button>
+            </div>
+            <div class="timer_display">
+                <p id="stopwatch" class="timer_text">00:00:00</p>
+            </div>
+        </div>
+        <div class="timer_block">
+            <div class="timer_menu">
+                <button class="start_button" onclick="startTimer()">Start</button>
+                <button class="stop_button" onclick="stopTimer()">Stop</button>
+                <button class="reset_button" onclick="resetTimer()">Reset</button>
+            </div>
+            <div class="timer_display">
+                <p id="stopwatch" class="timer_text">00:00:00</p>
+            </div>
+        </div>
+    </div>
+        <script src="popup.js"></script>
+</body>
+
+</html>

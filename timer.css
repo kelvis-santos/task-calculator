@@ -1,0 +1,66 @@
+.timer_block {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 2px;
+    border: 0;
+    flex-direction: column;
+}
+
+.timer_menu {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.start_button,
+.stop_button,
+.reset_button {
+    width: 32%;
+    height: 25px;
+    border: 0;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 4px;
+    margin: 0;
+}
+
+.start_button {
+    background-color: #B9F8D3;
+}
+
+.start_button:hover,
+.stop_button:hover,
+.reset_button:hover {
+    transform: scale(1.1);
+}
+
+.stop_button {
+    background-color: #E78EA9;
+}
+
+.timer_display {
+    display: flex;
+    width: 100%;
+    background-color: #B9F8D3;
+    border: 0;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timer_text {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+.task_name {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #40DFEF;
+    margin: 0;
+    padding: 0;
+}
